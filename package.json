@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-deep-has-property",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test whether an object contains a nested key path, either own or inherited.",
   "license": "Apache-2.0",
   "author": {
