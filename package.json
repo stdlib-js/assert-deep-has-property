@@ -3,8 +3,31 @@
   "version": "0.0.6",
   "description": "Test whether an object contains a nested key path, either own or inherited.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,39 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/assert-has-own-property": "^0.0.7",
+    "@stdlib/assert-has-property": "^0.0.7",
+    "@stdlib/assert-is-array": "^0.0.7",
+    "@stdlib/assert-is-plain-object": "^0.0.7",
+    "@stdlib/assert-is-string": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-boolean": "^0.0.8",
+    "@stdlib/assert-is-function": "^0.0.8",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/random-base-randu": "^0.0.8",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdassert",
@@ -41,7 +97,7 @@
     "hasownproperty"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
