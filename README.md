@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-deep-has-property/tags). For example,
+
+```javascript
 import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@esm/index.mjs';
 ```
 
 #### deepHasProp( value, path\[, options] )
@@ -225,7 +230,7 @@ var bool = has( obj );
 <body>
 <script type="module">
 
-import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.1.0-esm/index.mjs';
+import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@esm/index.mjs';
 
 var bool = deepHasProp( { 'a': { 'b': { 'c': 'd' } } }, 'a.b.c' );
 // returns true
