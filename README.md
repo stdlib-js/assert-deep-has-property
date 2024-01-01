@@ -35,20 +35,30 @@ limitations under the License.
 
 > Test whether an object contains a nested key path, either own or inherited.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-deep-has-property
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
+var deepHasProp = require( '@stdlib/assert-deep-has-property' );
 ```
 
 #### deepHasProp( value, path\[, options] )
@@ -220,7 +230,7 @@ var bool = has( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
+var deepHasProp = require( '@stdlib/assert-deep-has-property' );
 
 var bool = deepHasProp( { 'a': { 'b': { 'c': 'd' } } }, 'a.b.c' );
 // returns true
@@ -287,7 +297,7 @@ bool = has( { 'a': [ { 'b': { 'c': 'd' } } ] } );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -304,7 +314,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -349,15 +359,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/deep-has-own-property]: https://github.com/stdlib-js/assert-deep-has-own-property/tree/deno
+[@stdlib/assert/deep-has-own-property]: https://github.com/stdlib-js/assert-deep-has-own-property
 
-[@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert-has-own-property/tree/deno
+[@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert-has-own-property
 
-[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get/tree/deno
+[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get
 
-[@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck/tree/deno
+[@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck
 
-[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set/tree/deno
+[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set
 
 <!-- </related-links> -->
 
