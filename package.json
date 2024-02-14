@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-deep-has-property",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Test whether an object contains a nested key path, either own or inherited.",
   "license": "Apache-2.0",
   "author": {
@@ -38,12 +38,12 @@
   },
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.1.1",
-    "@stdlib/assert-has-property": "^0.1.1",
-    "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/assert-is-plain-object": "^0.1.1",
-    "@stdlib/assert-is-string": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
+    "@stdlib/assert-has-property": "^0.2.0",
+    "@stdlib/assert-is-array": "^0.2.0",
+    "@stdlib/assert-is-plain-object": "^0.2.0",
+    "@stdlib/assert-is-string": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
