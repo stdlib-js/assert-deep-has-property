@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
+import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.0-deno/mod.js';
 ```
 
 #### deepHasProp( value, path\[, options] )
@@ -220,7 +220,7 @@ var bool = has( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@deno/mod.js';
+import deepHasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.0-deno/mod.js';
 
 var bool = deepHasProp( { 'a': { 'b': { 'c': 'd' } } }, 'a.b.c' );
 // returns true
