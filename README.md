@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+deepHasProp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-deep-has-property/tags). For example,
+
+```javascript
 deepHasProp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var deepHasProp = require( 'path/to/vendor/umd/assert-deep-has-property/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -241,7 +246,7 @@ var bool = has( obj );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-deep-has-property@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
